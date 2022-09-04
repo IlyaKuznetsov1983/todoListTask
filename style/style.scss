@@ -1,0 +1,28 @@
+@import "constants/font-size";
+@import "mixin/adaptive";
+@import "components/button";
+@import "pages/authorization";
+@import "pages/page-application";
+@import "components/notification";
+@import "components/modal";
+
+html {
+  height: 100%;
+
+  & * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  & body {
+    height: 100%;
+  }
+}
+
+.hide {
+  display: none !important;
+}
